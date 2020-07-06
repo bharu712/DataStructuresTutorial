@@ -14,4 +14,5 @@ public interface PositionalList<E> {
 	Position<E> addAfter(Position<E> p, E e) throws IllegalStateException;
 	E set(Position<E> p, E e);
 	E remove(Position<E> p);
+	Iterable<Position<E>> positions();
 }

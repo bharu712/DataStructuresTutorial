@@ -137,4 +137,10 @@ public class LinkedPositionalList<E> implements PositionalList<E> {
 		return answer;
 	}
 
+	@Override
+	public Iterable<Position<E>> positions() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
